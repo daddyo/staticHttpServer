@@ -1,7 +1,7 @@
 {
   "name": "staticHttpServer",
   "description": "A very simple web server for static files. Good for developing html with JavaScript. For testing purposes ONLY!",
-  "url": "",
+  "url": "http://github.com/daddyo/staticHttpServer",
   "keywords": [
     "http",
     "static",
@@ -12,16 +12,21 @@
     "name": "daddyo",
     "email": ""
   },
-  "contributors": [
-    {
-    }
-  ],
+  "maintainers": [],
+  "contributors": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/daddyo/staticHttpServer"
+    "url": "http://github.com/daddyo/staticHttpServer.git"
   },
   "main": "./server.js",
   "scripts": {
+  },
+  "files": {
+    "server.js",
+    "public/"
+  },
+  "directories": {
+    "public": "./public"
   },
   "bin": {
   },
@@ -33,12 +38,11 @@
   "devDependencies": {
   },
   "version": "0.1.0",
+  "os": ["linux", "macos", "win"],
+  "cpu": ["x86", "ppc", "x86_64"],
   "engines": {
     "node": ">= 0.6.20"
   },
   "readme": "",
   "_id": "staticHttpServer@0.1.0",
-  "dist": {
-  },
-  "_from": ""
 }
