@@ -38,8 +38,6 @@
   "devDependencies": {
   },
   "version": "0.1.0",
-  "os": ["linux", "macos", "win"],
-  "cpu": ["x86", "ppc", "x86_64"],
   "engines": {
     "node": ">= 0.6.20"
   },
