@@ -21,10 +21,10 @@
   "main": "./server.js",
   "scripts": {
   },
-  "files": [{
+  "files": [
     "server.js",
     "public/default.html"
-  }],
+  ],
   "directories": {
     "public": "./public"
   },
@@ -43,6 +43,5 @@
   "engines": {
     "node": ">= 0.6.20"
   },
-  "readme": "",
   "_id": "staticHttpServer@0.1.0"
 }
